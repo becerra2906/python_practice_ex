@@ -8,7 +8,7 @@ name = input("What's your name?: ")
 
 #ask user for age
 
-age = input("What's your age?: ")
+age = input("How old are you?: ")
 
 #ask user for city
 
@@ -20,4 +20,11 @@ love = input("What do you love doing?: ")
 
 #Create ouput 
 
- 
+string =  "Your name is {} and you are {} years old. You live in {} and you love {}."
+
+output =  string.format(name, age, city, love)
+
+#Print output
+
+print(output)
+
