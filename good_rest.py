@@ -17,10 +17,10 @@
 #program should read the int values from input and print result
 
 
-duration = int(input())
-food_cost_per_day = int(input())
-one_way_flight_cost = int(input())
-hotel_night_cost = int(input())
+duration = int(input("how many days are you going to be travelling for? "))
+food_cost_per_day = int(input("how much do you want to spend per day on food? "))
+one_way_flight_cost = int(input("how much is a one way flight to where you are going? "))
+hotel_night_cost = int(input("how much are you willing to pay for a hotel night? "))
 
 #calculation function
 
@@ -29,5 +29,3 @@ calc_total = ((duration * food_cost_per_day)
             + ((duration - 1) * hotel_night_cost))
 
 print(calc_total)
-
-        
