@@ -5,5 +5,6 @@
 #receive user email trough input
 email = str(input("What's your email address?"))
 
-user_name = email[email.index (0:'@':1)]
+user_name = (email[0:'@':1])
 print(user_name)
+
