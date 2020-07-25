@@ -29,9 +29,20 @@
     #print ("En este momento no soportamos esa moneda, vuelve a correr el programa e intenta con Dolares o Pesos Colombianos")
 
 
-def suma(a,b):
-    print('Se suman dos numeros: ')
-    resultado = a + b
-    return resultado
-sumatoria = suma(1,4)
-print(sumatoria)
+#def suma(a,b):
+    #print('Se suman dos numeros: ')
+    #resultado = a + b
+    #return resultado
+#sumatoria = suma(1,4)
+#print(sumatoria)
+
+
+def currency_converter(moneda, tasa):
+   proceso = int(tasa) * int(quantity) 
+    return proceso
+
+moneda = ['cop'. 'pen', 'mxn']
+
+init = input('¿Qué moneda tienes? (para pesos colombianos pon COP, para soles peruanos pon PEN, y para pesos méxicanos MXN')))
+
+if init 
