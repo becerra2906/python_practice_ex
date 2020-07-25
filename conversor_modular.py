@@ -37,12 +37,15 @@
 #print(sumatoria)
 
 
-def currency_converter(moneda, tasa):
-   proceso = int(tasa) * int(quantity) 
-    return proceso
+def currency_converter(valor, tasa) :
+   proceso = int(tasa) * int(valor) 
+   return proceso
 
-moneda = ['cop'. 'pen', 'mxn']
 
-init = input('¿Qué moneda tienes? (para pesos colombianos pon COP, para soles peruanos pon PEN, y para pesos méxicanos MXN')))
+init = str(input('¿Qué moneda tienes? (para pesos colombianos pon COP, para soles peruanos pon PEN, y para pesos méxicanos MXN)'))
+valor = input('¿Cúanto quieres convertir?')
+tasa = int(input("¿A cuánto se está transando el dolar?"))
 
-if init 
+    if init == 'cop' : 
+            currency_converter(valor, tasa)
+            print(proceso)
