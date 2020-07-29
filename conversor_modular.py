@@ -46,6 +46,6 @@ init = str(input('¿Qué moneda tienes? (para pesos colombianos pon COP, para so
 valor = input('¿Cúanto quieres convertir?')
 tasa = int(input("¿A cuánto se está transando el dolar?"))
 
-    if init == 'cop' : 
-            currency_converter(valor, tasa)
-            print(proceso)
+if  init == 'cop' : 
+        currency_converter(valor, tasa)
+        print(proceso)
