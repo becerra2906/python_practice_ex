@@ -38,13 +38,13 @@
 
 
 def currency_converter(valor, tasa) :
-   proceso = int(tasa) * int(valor) 
+   proceso = float(valor) * float(tasa) 
    return proceso
 
 
-init = str(input('¿Qué moneda tienes?'))
-valor = input('¿Cúanto quieres convertir?')
+#init = str(input('¿Qué moneda tienes?'))
+valor = input('¿Cúanto quieres convertir? ')
 
 
-colombianos = currency_converter(valor, 3500)
-print(colombianos)
+colombianos = currency_converter(valor, 0.5)
+print('Has convertido ' + str(colombianos) + ' dolares.')
