@@ -42,10 +42,9 @@ def currency_converter(valor, tasa) :
    return proceso
 
 
-init = str(input('¿Qué moneda tienes? (para pesos colombianos pon COP, para soles peruanos pon PEN, y para pesos méxicanos MXN)'))
+init = str(input('¿Qué moneda tienes?'))
 valor = input('¿Cúanto quieres convertir?')
-tasa = int(input("¿A cuánto se está transando el dolar?"))
 
-if  init == 'cop' : 
-        currency_converter(valor, tasa)
-        print(proceso)
+
+colombianos = currency_converter(valor, 3500)
+print(colombianos)
