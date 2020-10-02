@@ -37,14 +37,18 @@
 #print(sumatoria)
 
 
+
 def currency_converter(valor, tasa) :
    proceso = float(valor) * float(tasa) 
    return proceso
 
-
+def run()
 #init = str(input('¿Qué moneda tienes?'))
 valor = input('¿Cúanto quieres convertir? ')
 
 
 colombianos = currency_converter(valor, 0.5)
 print('Has convertido ' + str(colombianos) + ' dolares.')
+
+ if __name__ == "__main__":
+    run()
